@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VK - TODO LIST</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/ff9ad2e34b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <i class="fa-solid fa-calendar" id="list-icon"></i>
+            <h1>VK - TODOLIST</h1>
+        </div>
+        <div id="nav-bar">
+            <nav>
+                <a href="#">pending todos</a>
+                <a href="#">completed todos</a>
+                <a href="#">history</a>
+                <a href="#">about todo?</a>
+            </nav>
+        </div>
+        <button id="menu-bar"><i class="fa-solid fa-bars"></i></button>
+    </header>
+    <div id="container">
+        <div class="todos todo-inp">
+            <div class="todo-input">
+                <input type="text" required id="todo-inp">
+                <div id="err-msg">! Enter any Input (todo's)</div>
+                <button id="add-btn">add todo</button>
+            </div>
+        </div>
+        <div class="todos todoist">
+            <div id="todos-title">
+                <h1>TODO LIST</h1>
+            </div>
+            <div class="todo-list" id="todo-list">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
